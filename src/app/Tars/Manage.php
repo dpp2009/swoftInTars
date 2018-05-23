@@ -42,7 +42,7 @@ class Manage
         $pname = env('PNAME');
         $pname = explode('.',$pname);
 
-        $adapter = $pname.'.objAdapter';
+        $adapter = env('PNAME').'.objAdapter';
         $application = $pname[0];
         $serverName = $pname[1];
         $masterPid = getmypid();

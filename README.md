@@ -7,7 +7,7 @@
 # 相关项目
 
 * SWOFT (https://github.com/swoft-cloud/swoft)   
-* TARSPHP分支 (https://github.com/Tencent/Tars/tree/phptars)
+* TARSPHP (https://github.com/TarsPHP/TarsPHP)
 * TARSPHP DOCKER (https://github.com/tangramor/docker-tars)
 
 

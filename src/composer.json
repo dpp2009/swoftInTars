@@ -30,12 +30,12 @@
         "swoft/process": "^1.0",
         "swoft/memory": "^1.0",
         "swoft/service-governance": "^1.0",
-        "phptars/tars-registry": "0.1.0",
-        "phptars/tars-deploy": "0.1.0",
-        "phptars/tars-utils": "0.1.0",
-        "phptars/tars-report": "0.1.0",
-        "phptars/tars-client": "0.1.0",
-        "phptars/tars2php": "0.1.0"
+        "phptars/tars-registry": "~0.1.0",
+        "phptars/tars-deploy": "~0.1.0",
+        "phptars/tars-utils": "~0.1.0",
+        "phptars/tars-report": "~0.1.0",
+        "phptars/tars-client": "~0.1.0",
+        "phptars/tars2php": "~0.1.0"
     },
     "require-dev": {
         "eaglewu/swoole-ide-helper": "dev-master",
@@ -62,8 +62,5 @@
         "deploy": "\\Tars\\deploy\\Deploy::run"
     },
     "repositories": [
-        {"type": "composer", "url": "https://raw.githubusercontent.com/Tencent/Tars/phptars/php/dist/tarsphp.json"},
-        {"type": "composer", "url": "https://packagist.phpcomposer.com"},
-        {"packagist": false}
     ]
 }

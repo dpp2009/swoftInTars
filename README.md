@@ -8,7 +8,7 @@
 
 * SWOFT (https://github.com/swoft-cloud/swoft)   
 * TARSPHP (https://github.com/TarsPHP/TarsPHP)
-* TARSPHP DOCKER (https://github.com/tangramor/docker-tars)
+* TARSPHP DOCKER (https://github.com/tangramor/docker-tars)  
 
 
 # 使用
@@ -23,3 +23,5 @@
 * 服务名需要在 ./tars/tars.proto.php （appName&serverName） 和 ./src/.env （PNAME） 里面正确配置（2个地方要配置正确且一致）
 * swoft的端口号不使用tars平台下发的端口号（因为swoft可以支持多端口多协议）
 
+# 重启问题
+* 使用docker-tars，pcre可能没开启。运行php --ri swoole，看是否存在pcre => enabled。不存在运行yum install pcre-devel，再重新编译swoole！！
